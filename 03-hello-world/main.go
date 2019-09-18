@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var z int
+
 func main() {
 	x := 43
 	fmt.Println(x)
@@ -12,4 +14,10 @@ func main() {
 	fmt.Println(y)
 	textnumber := "I will be old in"
 	fmt.Println(textnumber, y, "years.")
+	fmt.Println(z)
+	foo()
+}
+
+func foo() {
+	fmt.Println("from another function", z)
 }
