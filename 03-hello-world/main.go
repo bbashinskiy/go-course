@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var z int
+var z = 34 //will automatically set integer type
 
 func main() {
 	x := 43
