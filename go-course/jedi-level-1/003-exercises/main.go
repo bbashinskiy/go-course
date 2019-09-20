@@ -7,7 +7,6 @@ var y string = "James Bond"
 var z bool = true
 
 func main() {
-	// Valused should be 0,"",false
 	s := fmt.Sprintf("%v\t%v\t%v", x, y, z)
 	fmt.Println(s)
 }
