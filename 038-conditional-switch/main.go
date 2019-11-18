@@ -20,7 +20,7 @@ func main() {
 	case (10 == 3):
 		fmt.Println("false 2")
 		fallthrough
-	case (4 == 4):
+	case (7 == 4):
 		fmt.Println("also true, does it print?")
 		fallthrough
 	default:
