@@ -15,5 +15,24 @@ func main() {
 		}
 	}
 	//3
+	year := 1992
+	for year <= 2019 {
+		fmt.Println(year)
+		year++
+	}
+	//4
+	bd := 1992
+	for {
+		if bd > 2019 {
+			break
+		}
+		fmt.Println(bd)
+		bd++
+	}
+	//5
+	for dg := 10; dg <= 100; dg++ {
+		fmt.Println(dg % 4)
+	}
+	//6
 
 }
