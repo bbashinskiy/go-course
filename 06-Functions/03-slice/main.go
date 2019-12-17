@@ -13,6 +13,8 @@ func sum(x ...int) int {
 
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
+	fmt.Println(len(x))
+	fmt.Println(cap(x))
 
 	sum := 0
 	for i, v := range x {
