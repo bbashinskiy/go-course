@@ -8,11 +8,15 @@ func main() {
 
 	x := bar()
 	fmt.Println(x)
-	fmt.Printf("%T\n",x)
+	fmt.Printf("%T\n", x)
 
-	i:= x()
+	i := x()
 	fmt.Println(i)
-	fmt.Printf("%T\n",i)
+	fmt.Printf("%T\n", i)
+
+	fmt.Println(x())
+	fmt.Println(bar()())
+
 }
 
 func foo() string {
@@ -21,7 +25,7 @@ func foo() string {
 }
 
 func bar() func() int {
-	return func() int{
+	return func() int {
 		return 451
 	}
 }
