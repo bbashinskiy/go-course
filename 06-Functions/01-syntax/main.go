@@ -2,16 +2,6 @@ package main
 
 import "fmt"
 
-<<<<<<< HEAD
-// func (r receiver) identifier(parameters) (returns(s)) {...}
-
-func main() {
-	foo()
-}
-
-func foo() {
-	fmt.Println("hello from foo")
-=======
 func main() {
 	foo()
 	bar("James Bond")
@@ -38,5 +28,4 @@ func mause(fn string, ln string) (string, bool) {
 	a := fmt.Sprint(fn, " ", ln, `, says "Hello"`)
 	b := false
 	return a, b
->>>>>>> 417454f733316d059504a69096228a4790f21141
 }
